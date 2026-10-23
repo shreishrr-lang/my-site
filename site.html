@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحتي</title>
+
+    <link rel="stylesheet" href="site.css">
+</head>
+<body>
+
+    <h1> مرحباً بك في صفحتنا الرسمية </h1>
+    <h1>هندسة السلوك </h1>    <br><br>
+
+    <p>اختر القسم الذي تريد عرضه</p>
+    <br>
+
+    <div class="menu">
+        <button onclick="showSection('about')">من نحن</button>
+        <button onclick="showSection('services')">الخدمات</button>
+        <button onclick="showSection('products')">المنتجات</button>
+        <button onclick="showSection('contact')">تواصل معنا</button>
+    </div>
+
+    <div id="about" class="section">
+        <h2>من نحن</h2>
+        <p>هذه نبذة عن الصفحة.</p>
+    </div>
+
+    <div id="services" class="section">
+        <h2>الخدمات</h2>
+        <p>تصميم مواقع - برمجة تطبيقات - دعم فني</p>
+    </div>
+
+    <div id="products" class="section">
+        <h2>المنتجات</h2>
+        <p>منتج 1 - منتج 2 - منتج 3</p>
+    </div>
+
+    <div id="contact" class="section">
+        <h2>تواصل معنا</h2>
+        <p>01000000000</p>
+    </div>
+
+    <script src="site.js"></script>
+
+</body>
+</html>
